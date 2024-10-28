@@ -2,6 +2,8 @@
 
 ## 本期视频内容要点
 
+【沉浸式翻译自定义API部署指南+N8N更好可定制化翻译工作流:用N8N打造你的专属翻译神器-N8N教程[本期视频](https://www.bilibili.com/video/BV1PZy2YdErb/)】
+
 - 上期我们通过免费部署 DeepL 的 API 来实现沉浸式翻译，今天我们通过 n8n 来部署一个自定义的 API 来实现沉浸式翻译。
 
 ![流程](./assets/n8n-fanyi-api/api.png)
@@ -57,6 +59,8 @@
 ### 相关链接：
 
 免费部署 DeepL 的 API 来实现沉浸式翻译 【[视频教程](https://www.bilibili.com/video/BV1e9bceoECw/) [项目地址](https://github.com/aigem/deeplx-freeAPI-serv00)】
+
+
 
 相关链接我会放到视频下方的。
 
