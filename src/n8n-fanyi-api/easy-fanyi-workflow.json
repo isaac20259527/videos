@@ -1,0 +1,228 @@
+{
+  "name": "沉浸API+",
+  "nodes": [
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "a99545ff-05e4-4c97-a675-b9dddca5b36d",
+              "name": "text",
+              "value": "={{ $json.body.text_list }}",
+              "type": "array"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "31a1b18e-ec7e-4431-8370-56c83dba82f1",
+      "name": "Edit Fields1",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        800,
+        180
+      ]
+    },
+    {
+      "parameters": {
+        "options": {
+          "separator": "\\n"
+        }
+      },
+      "id": "0b302bf5-e48c-4067-9130-5068e4c0ddb3",
+      "name": "Item List Output Parser",
+      "type": "@n8n/n8n-nodes-langchain.outputParserItemList",
+      "typeVersion": 1,
+      "position": [
+        1220,
+        400
+      ]
+    },
+    {
+      "parameters": {
+        "modelName": "models/gemini-1.5-flash-001-tuning",
+        "options": {
+          "temperature": 0.5
+        }
+      },
+      "id": "faa0e85d-e35e-4e07-8632-a86fa8ac3a3b",
+      "name": "Google Gemini Chat Model",
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        1060,
+        400
+      ],
+      "credentials": {
+        "googlePalmApi": {
+          "id": "KCzMQsEgLKO6X3Qe",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "fieldsToAggregate": {
+          "fieldToAggregate": [
+            {
+              "fieldToAggregate": "response.text",
+              "renameField": "=text"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "b3243c9b-095d-4609-a7de-4a213fde2a81",
+      "name": "Aggregate1",
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        1440,
+        180
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "6cb779a3-94c0-45c6-b02d-3f8f86a7fbcf",
+              "name": "translations",
+              "value": "={{ $json.text.map(text => ({\n    \"detected_source_lang\": $('Webhook').item.json.body.source_lang,\n    \"text\": text\n  })) }}",
+              "type": "array"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "8d0affc9-87dc-4e05-b013-06d7b87fe8b5",
+      "name": "Edit Fields",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1640,
+        180
+      ]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.text }}",
+        "hasOutputParser": true,
+        "messages": {
+          "messageValues": [
+            {
+              "message": "只将提供的内容翻译为中文"
+            }
+          ]
+        }
+      },
+      "id": "8e4037d9-4f59-4b80-ae6e-627592aa6058",
+      "name": "Basic LLM Chain1",
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.4,
+      "position": [
+        1060,
+        180
+      ]
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "fanyiapi",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "id": "82706a20-8b37-4c44-8a01-bf8b102308c8",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        580,
+        180
+      ],
+      "webhookId": "3de4477f-f5cc-4ef6-aa02-7d8a3027dc20"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Edit Fields1": {
+      "main": [
+        [
+          {
+            "node": "Basic LLM Chain1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Item List Output Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Basic LLM Chain1",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Basic LLM Chain1",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate1": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Basic LLM Chain1": {
+      "main": [
+        [
+          {
+            "node": "Aggregate1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "d911c1dd-70f3-4d82-8ec0-a7292d1d1b5d",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "636396f02b6571e40d8fe91cba550515c0cdc0e7d314c210e00b02256375a796"
+  },
+  "id": "eGgX67kijOCxwR8h",
+  "tags": []
+}
