@@ -1,4 +1,4 @@
-![n8n](./assets/n8n-fanyi-api/n8n.png)
+![n8n](../assets/n8n-fanyi-api/n8n.png)
 
 ## 本期视频内容要点
 
@@ -6,7 +6,7 @@
 
 - 上期我们通过免费部署 DeepL 的 API 来实现沉浸式翻译，今天我们通过 n8n 来部署一个自定义的 API 来实现沉浸式翻译。
 
-![流程](./assets/n8n-fanyi-api/api.png)
+![流程](../assets/n8n-fanyi-api/api.png)
 
 - N8N 通过 Webhook 来接收沉浸式翻译的请求，然后调用主流大语言模型来翻译文本，最后将翻译后的文本返回给沉浸式翻译。我们将详细讲解这个过程。
 
@@ -29,10 +29,10 @@
 
 参考官方说明：https://immersivetranslate.com/zh-Hans/docs/services/custom/
 
-![api](./assets/n8n-fanyi-api/api1.png)
+![api](../assets/n8n-fanyi-api/api1.png)
 
 
-![api2](./assets/n8n-fanyi-api/api2.png)
+![api2](../assets/n8n-fanyi-api/api2.png)
 
 3、部署自定义 API【N8N自动化工作流】
 
@@ -66,7 +66,7 @@
 
 ### 相关资源
 
-n8n 工作流文件 [workflow.json](./src/n8n-fanyi-api.json/)
+n8n 工作流文件 [workflow.json](../src/n8n-fanyi-api.json/)
 
 
 ## 本期视频总结

@@ -1,4 +1,4 @@
-![marscode](./assets/marscode/marscode.jpg)
+![marscode](../assets/marscode/marscode.jpg)
 
 ## 本期视频内容要点 [视频地址](https://www.bilibili.com/video/BV1JRStYCEsU/)
 
