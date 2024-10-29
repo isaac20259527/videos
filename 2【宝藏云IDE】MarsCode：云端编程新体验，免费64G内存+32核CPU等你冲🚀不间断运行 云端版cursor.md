@@ -42,13 +42,14 @@ sudo su
 wget -O su.sh https://bit.ly/akuhGet && chmod +x su.sh && ./su.sh
 # 如果su.sh没有运行，请手动运行
 bash su.sh
+```
 
-安装neofetch
+### 安装neofetch
 ```bash
 sudo apt update && sudo apt install neofetch -y
 ```
 
-安装htop
+### 安装htop
 ```bash
 sudo apt update && sudo apt install htop -y
 ```
