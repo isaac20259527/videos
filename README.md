@@ -14,4 +14,4 @@
 
 8. [永远在线的个人全栈ai开发平台部署教程，cloudflare pages+魔改强化版bolt+free ai api=全能开发](./md/8.md)
 
-9. [【平替cursor新选择】Cline + litellm + Gpt-4o API 本地及云端部署教程](./md/9.md)【[视频教程](https://www.bilibili.com/video/BV1DJDDYfEfD/)】
+9. [【平替cursor 免费最终AI编辑助手】Cline + litellm + Gpt-4o API 本地及云端部署教程](./md/9.md)【[视频教程](https://www.bilibili.com/video/BV1DJDDYfEfD/)】
