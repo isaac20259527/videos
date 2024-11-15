@@ -22,4 +22,6 @@
 
 12. [【国内最新最舒适地使用GPT-4o的方式微软VSCode AI 工具箱用来狙击cursor？VSCode里的AI神器，免费GPT-4o轻松用】](https://www.bilibili.com/video/BV1kLmbYGExa/)
 
-13. [【写代码杠杠的≈GPT4o 千问coder32B惊艳的Artifacts及本地部署测试 编程福音 Ai开发必备】](https://www.bilibili.com/video/BV1VYUAYZEH7/) 【[DEMO](https://qwen.edge1.us.kg)】【白嫖国内T4显卡主机 16G显存 8核32G内容】
+13. [【写代码杠杠的≈GPT4o 千问coder32B惊艳的Artifacts及本地部署测试 编程福音 Ai开发必备】](https://www.bilibili.com/video/BV1VYUAYZEH7/) 【[DEMO](https://qwen.edge1.us.kg)】【[白嫖国内T4显卡主机 16G显存 8核32G内容](https://www.bilibili.com/video/BV1BJmSYFE2a/)】
+
+14. [【闭眼入】免费GPU云电脑,云端算力T4显卡每月50000分钟免费时长 腾讯云免费AI算力，良心哭了 16G显存+8核+32G内存+root权限+国内](./md/14.md)  [视频](https://www.bilibili.com/video/BV1BJmSYFE2a/)
