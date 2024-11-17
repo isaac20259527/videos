@@ -2,7 +2,7 @@
 
 ### B站/油管/小红书/抖音等自媒体视频相关[内容、资源等]
 
-## 【[博客网站](/)】
+## 【[博客网站](/)】 
 
 1. [【N8N教程】沉浸式翻译_自定义API部署指南](./md/1.md) 【详细内容】
 
@@ -25,3 +25,5 @@
 13. [写代码杠杠的≈GPT4o 千问coder32B惊艳的Artifacts及本地部署测试 编程福音 Ai开发必备](https://www.bilibili.com/video/BV1VYUAYZEH7/) 【[DEMO](https://qwen.edge1.us.kg)】【[白嫖国内T4显卡主机 16G显存 8核32G内容](https://www.bilibili.com/video/BV1BJmSYFE2a/)】
 
 14. [【闭眼入】免费GPU云电脑,云端算力T4显卡每月50000分钟免费时长 腾讯云免费AI算力，良心哭了](./md/14.md)  【[视频](https://www.bilibili.com/video/BV1BJmSYFE2a/)】
+
+15. [帮你们试了，要装！windsurf Ai编程神器 体验极好，与curso不相上下，免费使用，速上。实战你们感兴趣的程序，来体验一下吧](./md/15.md) [视频教程](https://www.bilibili.com/video/BV1B3U7YuEcZ/) [【DEMO】](https://1pics.edge1.us.kg/)
