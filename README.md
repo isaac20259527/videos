@@ -26,4 +26,4 @@
 
 14. [【闭眼入】免费GPU云电脑,云端算力T4显卡每月50000分钟免费时长 腾讯云免费AI算力，良心哭了](./md/14.md)  【[视频](https://www.bilibili.com/video/BV1BJmSYFE2a/)】
 
-15. [帮你们试了，要装！windsurf Ai编程神器 体验极好，与curso不相上下，免费使用，速上。实战你们感兴趣的程序，来体验一下吧](./md/15.md) [视频教程](https://www.bilibili.com/video/BV1B3U7YuEcZ/) [【DEMO】](https://1pics.edge1.us.kg/)
+15. [帮你们试了，要装！windsurf Ai编程神器 体验极好，与curso不相上下，免费使用，速上。实战你们感兴趣的程序，来体验一下吧](./md/15.md) 【[视频教程](https://www.bilibili.com/video/BV1B3U7YuEcZ/)】 【[DEMO](https://1pics.edge1.us.kg/)】
