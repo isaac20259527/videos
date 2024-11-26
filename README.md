@@ -33,3 +33,7 @@
 17. [良心云Cloud studio免费GPU云主机上一键部署open webUI 脚本安装教程 | 一键安装运行 | 免费云主机 | 免费算力电脑 | 云端电脑](./md/17.md) 【[视频教程](https://www.bilibili.com/video/BV1tmSFY1ERb/)】 【[获取一键脚本](https://gf.bilibili.com/item/detail/1107198073)】
 
 18. 海量模型的api 来取吧 | 各种大语言模型及API | 国内可用 | 背靠抱抱脸海量模型库 | 免费试用 【[视频教程](https://www.bilibili.com/video/BV1ftUDYiE7Y/)】 【[直达网址](https://glhf.chat)】【[免费搭建 web openUI](./md/17.md)】
+
+19. 外接硬盘让M4 Mac Mini 256G秒变2T硬盘主机，劲省600刀 【[视频](https://www.bilibili.com/video/BV1dxBxYvEoE/)】 
+
+20. [一键安装comfyui在腾讯云Ai主机上 免费GPU 16G显存](./md/14.md) 【[视频教程](https://www.bilibili.com/video/BV1nMzNYHEd6/)】 【[获取一键脚本](https://github.com/aigem/aitools/)】
