@@ -37,3 +37,11 @@
 19. 外接硬盘让M4 Mac Mini 256G秒变2T硬盘主机，劲省600刀 【[视频](https://www.bilibili.com/video/BV1dxBxYvEoE/)】 
 
 20. [一键安装comfyui在腾讯云Ai主机上 免费GPU 16G显存](./md/14.md) 【[视频教程](https://www.bilibili.com/video/BV1nMzNYHEd6/)】 【[获取一键脚本](https://github.com/aigem/aitools/)】
+
+21. [【人人皆可Ai】给你AiPC一键安装ComfyUI 一键安装脚本及下载教程](./md/21.md) 【[视频教程](https://www.bilibili.com/video/BV13UBRYVEmX/)】 【[获取一键脚本]((https://gf.bilibili.com/item/detail/1107198073))】
+
+22. 【吹爆】Windsurf 新升级 | MCP及图片支持 | 自动补全比之前好多了 | cursor替代 | 本地免费强大Ai编辑器 | 大佬都用来搞钱了 【[视频](https://www.bilibili.com/video/BV1F2zqYyEyA/)】
+
+23. 
+
+24.
