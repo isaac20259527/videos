@@ -42,6 +42,4 @@
 
 22. 【吹爆】Windsurf 新升级 | MCP及图片支持 | 自动补全比之前好多了 | cursor替代 | 本地免费强大Ai编辑器 | 大佬都用来搞钱了 【[视频](https://www.bilibili.com/video/BV1F2zqYyEyA/)】
 
-23. 
-
-24.
+23. [超实用的AI工具和技巧分享&高级实用图片编辑工作流](./md/23.md) 【[视频链接](https://www.bilibili.com/video/BV1qf6wYkEKQ/)】【[工作流获取](https://gf.bilibili.com/item/detail/1107271073)】
