@@ -47,3 +47,5 @@
 32. gemini2.0 测试及本地使用、云端cline开发教程 cline+liteLLM+api 还有还强大好用的用法:你的ai代码编辑器+移动的vs code 【[视频](https://www.bilibili.com/video/BV1PuB5YmEhA/)】 【[详细内容](./md/32.md)】
 
 34. 推荐两款超好用VPN,稳定 快速 免费好用 你会用得上的虚拟专用网络神器 ksa EasyTier 【[小红书视频](https://www.xiaohongshu.com/discovery/item/676423360000000014027b07?source=webshare&xhsshare=pc_web&xsec_token=ABzf-fhLZ0oyTNquAKp6YNFgPkCadC2a9ixPqggV3w3dU=&xsec_source=pc_share)】【[抖音视频](https://v.douyin.com/iUuBh1Mt/)】 【[详细内容](./md/34.md)】
+
+35. 优雅解决Cursor试用期限制 cursor不能免费续？教你一行代码解决，继续免费试用【[视频教程](https://www.bilibili.com/video/BV1H3ktYtEUy/)】 【[相关代码及说明](./md/35.md)】
