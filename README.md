@@ -1,6 +1,12 @@
 # ai来事 videos
 
-### B站/油管/小红书/抖音等自媒体视频相关[内容、资源等]
+### B站/油管/小红书/抖音等自媒体视频相关[内容、资源等] 最新视频资源在最下方
+
+交流群：
+
+企微  https://qr61.cn/oohivs/qRp62U6
+
+Discord https://discord.gg/3JWMgKQznF
 
 ## 【[博客网站](/)】 
 
