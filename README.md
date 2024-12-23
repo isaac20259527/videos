@@ -55,3 +55,5 @@ Discord https://discord.gg/3JWMgKQznF
 34. 推荐两款超好用VPN,稳定 快速 免费好用 你会用得上的虚拟专用网络神器 ksa EasyTier 【[小红书视频](https://www.xiaohongshu.com/discovery/item/676423360000000014027b07?source=webshare&xhsshare=pc_web&xsec_token=ABzf-fhLZ0oyTNquAKp6YNFgPkCadC2a9ixPqggV3w3dU=&xsec_source=pc_share)】【[抖音视频](https://v.douyin.com/iUuBh1Mt/)】 【[详细内容](./md/34.md)】
 
 35. 优雅解决Cursor试用期限制 cursor不能免费续？教你一行代码解决，继续免费试用【[视频教程](https://www.bilibili.com/video/BV1H3ktYtEUy/)】 【[相关代码及说明](./md/35.md)】
+
+36. bolt.diy介绍及安装教程 【[视频教程](https://www.bilibili.com/video/BV1xHCgYDET4/)】【[DEMO](https://bolt.remix.us.kg/)】 【[详细内容](./md/36.md)】
