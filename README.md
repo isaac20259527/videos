@@ -57,3 +57,9 @@ Discord https://discord.gg/3JWMgKQznF
 35. 优雅解决Cursor试用期限制 cursor不能免费续？教你一行代码解决，继续免费试用【[视频教程](https://www.bilibili.com/video/BV1H3ktYtEUy/)】 【[相关代码及说明](./md/35.md)】
 
 36. bolt.diy介绍及安装教程 【[视频教程](https://www.bilibili.com/video/BV1xHCgYDET4/)】【[DEMO](https://bolt.remix.us.kg/)】 【[详细内容](./md/36.md)】
+
+39. ai做有趣事 爱做有趣事 [系列视频](https://www.bilibili.com/video/BV17q6WYTEtW/)
+
+40. Deepseek v3 api + cline +cursor 【[视频教程](https://www.bilibili.com/video/BV11i6nYgEgS/)】 【[详细内容](./md/40.md)】
+
+41. 四年磨一剑 浏览器里的桌面系统竟然这么丝滑 教你安装部署daedalOS 【[视频教程](https://www.bilibili.com/video/BV1GX6qYeEKw/)】 【[详细内容](./md/41.md)】
